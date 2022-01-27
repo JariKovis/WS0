@@ -9,9 +9,9 @@ const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/HTML; charset=utf-8');
     res.write("<h1>Millainen on WEB arkkitehtuuri?</h1>"); //write a response to the client
     res.write("<h2>Tällaiselta se näyttää</h2> ");
-    res.write(
-        " <img src='https://www.cs.helsinki.fi/u/laine/tikas/material/web_sovellus.png'>"
-    );
+    /*res.write(
+        " <img src='./web_sovellus_kuva.png'>"
+    );*/
 
     var data =
         "<table border='5'><tr><td>Jari</td><td>Toka Jari</td></tr><tr><td>Kolmas Jari</td><td>Neljäs Jari</td></tr></table>";
