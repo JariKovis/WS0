@@ -1,8 +1,11 @@
 const http = require('http');
+const favicon = require('serve-favicon');
+const express = require('express');
+const app = express();
 const request = require("request");
 const PORT = process.env.PORT || 3000;
 
-
+//app.use(favicon('favicon-16x16'));
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/HTML; charset=utf-8');
